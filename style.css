@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #242222;
+
+}
+
+#tier, #image-item {
+    padding: 5px;
+}
+
+.tier-list {
+    margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 75px;
+
+}
+
+h1, label{
+    color: white;
+}
+
+.heading {
+    border-right: 1px solid white;
+    background-color: red;
+    font-size: xx-large;
+    font-weight: lighter;
+    height: 100%;
+
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.submitBtn {
+    padding: 5px 10px;
+    background-color: #ff7f7f;
+    border-radius: 10px;
+}
+
+.item-container {
+    width: 75px;
+    height: 75px;
+    margin-left: 5px;
+}
+
+.tier-list-items {
+    min-width: 40px;
+    display: flex;
+    gap: 5px;
+}
+
+.item-container > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#non-tier-section {
+    display: flex;
+    gap: 1rem;
+}
